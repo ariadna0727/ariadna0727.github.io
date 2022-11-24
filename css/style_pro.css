@@ -1,0 +1,128 @@
+@charset "utf-8";
+body main section {
+    width: 30%;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-family: Source;
+    text-align: left;
+}
+#menubotones2 {
+    display: inline-block;
+    list-style-type: none;
+}
+#menubotones2 li {
+    width: 140px;
+    display: inline-block;
+    background-color: #9E6C70;
+    height: 40px;
+    padding-top: 11px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 3px;
+}
+#menubotones3 {
+    list-style-type: none;
+    display: inline-block;
+}
+#menubotones3 li {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: #9E6C70;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 3px;
+    padding-top: 11px;
+}
+
+
+
+
+main {
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+body main {
+    display: flex;
+    justify-content: center;
+}
+.cajasderecha {
+    width: 50%;
+}
+.primeracajatexto {
+    width: 30%;
+    height: 130px;
+}
+main .primeracajatexto h2 {
+    padding-bottom: 20px;
+}
+#menubotones {
+    padding-top: 30px;
+}
+#menubotones li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    margin-right: 3px;
+    margin-left: 30px;
+    margin-top: 55px;
+    background-color: #9E6C70;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+    padding-top: 11px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+
+.segundacajatexto {
+    width: 50%;
+    height: 130px;
+}
+.cajasubtítulos {
+    width: 30%;
+    height: 50px;
+    padding-top: 20px;
+}
+.cajaboton {
+    width: 50%;
+    height: 50px;
+}
+.listasimag li {
+    list-style-image: url(../../Elglobito-2/Medios/Imagenes/icono.png);
+    padding-bottom: 5px;
+}
+section ul {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.justificar {
+    text-align: justify;
+}
+section a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+section a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+section a:active {
+    color: #FFFFFF;
+}
+section a:hover {
+    color: #400D11;
+    text-shadow: 3px 3px 30px #FFC1F8;
+}
